@@ -57,6 +57,11 @@ time as the task was assigned to asses the quick learning capabilities and adapt
 
 ---
 
+# Architecture Design
+
+![Architecture Design](https://raw.githubusercontent.com/AnasIrshad/Afiniti_Insights_Hiring_Assignment_by_Anas/master/web/public/arch.png)
+
+---
 ## Required Environment Setup (**Optional**)
 
 ### open new terminal
