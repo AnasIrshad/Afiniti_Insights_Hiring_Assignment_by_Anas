@@ -4,7 +4,6 @@ import React from 'react'
 // Component
 const Home = () => (
   <div>
-    <p><img src="" alt="Afiniti_Insight_Hiring_Assignment" /></p>
     <h1 id="afiniti-insight-hiring-assignment">Afiniti Insight Hiring Assignment</h1>
     <p>Simple Food Recipes and Ingredients management App</p>
     <blockquote>

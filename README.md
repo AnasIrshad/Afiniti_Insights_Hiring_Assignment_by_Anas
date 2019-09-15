@@ -1,4 +1,4 @@
-![Afiniti_Insight_Hiring_Assignment]()
+![Afiniti_Insight_Hiring_Assignment](https://raw.githubusercontent.com/AnasIrshad/Afiniti_Insights_Hiring_Assignment_by_Anas/master/web/public/dev-logo.png)
 
 
 # Afiniti Insight Hiring Assignment
