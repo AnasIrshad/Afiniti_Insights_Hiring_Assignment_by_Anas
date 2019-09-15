@@ -3,6 +3,8 @@
 
 # Afiniti Insight Hiring Assignment
 
+#### Total Time: Learning + Development  -  23 hours
+
 Simple Food Recipes and Ingredients management App
 
 > Take-home Assignemnt Completed as part of Afiniti Insight hiring process. Created the application in the minimun possible
