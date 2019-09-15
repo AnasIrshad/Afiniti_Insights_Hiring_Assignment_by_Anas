@@ -1,0 +1,150 @@
+
+
+# mutation {
+#   ingredientCreate(
+#     name: "ingredient1", 
+#     unitPrice: 1) {
+#     id
+#   }
+# }
+
+# mutation {
+#   ingredientRemove(id: 1) {
+#     id
+#   }
+# }
+
+# mutation {
+#   recipeCreate(
+#     name: "recipe1") {
+#     id
+#   }
+# }
+
+# mutation {
+#   recipeRemove(id: 1) {
+#     id
+#   }
+# }
+
+# mutation {
+#   recipeAddIngredient(
+#     recipeId: 1, 
+#     ingredientId: 1,
+#   	quantity: 10){
+#     id
+#   }
+# }
+
+# mutation {
+#   recipeRemoveIngredient(
+#     recipeId: 1, 
+#     ingredientId: 1){
+#     id
+#   }
+# }
+
+# mutation {
+#   recipeAddIntermediateRecipe(
+#     recipeId: 1, 
+#     intermRecipeId: 2,
+#   	quantity: 2){
+#     id
+#   }
+# }
+
+# mutation {
+#   recipeRemoveIntermediateRecipe(
+#     recipeId: 1, 
+#     intermRecipeId: 2){
+#     id
+#   }
+# }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# query {
+#   ingredients{
+#     id,
+#     name,
+#     unitPrice
+#   }
+# }
+
+# query {
+#   ingredient(id: 1){
+#     id,
+#     name,
+#     unitPrice
+#   }
+# }
+
+# query {
+#   recipes{
+#     id,
+#     name,
+#     cost,
+#     ingredients{
+#       id,
+#       name,
+#       unitPrice
+#     }
+#   }
+# }
+
+# query {
+#   recipe(id: 1){
+#     id,
+#     name,
+#     cost,
+#     ingredients{
+#       id,
+#       name,
+#       unitPrice
+#     },
+#     intermediateRecipes{
+#       id,
+#       name,
+#       cost
+#     }
+#   }
+# }
+
+# query {
+#   recipeIngredients(recipeId: 1) {
+#     id,
+#     name,
+#     unitPrice
+#   }
+# }
+
+# query {
+#   intermediateRecipes(recipeId: 1) {
+#     id,
+#     name,
+#     cost,
+#     ingredients{
+#       id,
+#       name,
+#       unitPrice
+#     },
+#     intermediateRecipes{
+#       id,
+#       name,
+#       cost
+#     }
+#   }
+# }
