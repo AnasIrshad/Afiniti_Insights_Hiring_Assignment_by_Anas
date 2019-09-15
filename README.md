@@ -63,6 +63,12 @@ time as the task was assigned to asses the quick learning capabilities and adapt
 
 ---
 
+# Demo video
+
+[![Installation instructions & Demo video](http://img.youtube.com/vi/sSbPAE0Iac4/0.jpg)](http://www.youtube.com/watch?v=sSbPAE0Iac4)
+
+---
+
 ## Required Environment Setup (**Optional**)
 
 ### open new terminal
